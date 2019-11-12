@@ -1,0 +1,6 @@
+version: '3'
+services:
+  cms:
+    image: rafaelchaves/cms
+    ports:
+      - "5000:5000"
